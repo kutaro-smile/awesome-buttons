@@ -4,7 +4,7 @@ CSSアニメーションを使ったボタンのサンプルです。ご自由�
 
 ▼プレビューをご覧いただけます
 
-[プレビューを見る](https://kutaro-smile.github.io/awesome-buttons/)
+[プレビューを見る](https://kutaro-smile.github.io/awesome-buttons/index.html)
 
 ## スタイルの場所
 
