@@ -1,0 +1,14 @@
+//
+// Variables
+//
+
+// Map for Colors
+$color: (
+	main-black : #555,
+	link       : #3498db,
+);
+
+// Mixin for Font Color / defaults: main-black
+@mixin color($name:main-black) {
+	color: map-get($color, $name);
+}
