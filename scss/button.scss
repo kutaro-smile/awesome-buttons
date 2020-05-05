@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+/* ボタンのスタイル */
+.btn {
+	$size: 56px;
+	width: $size;
+	height: $size;
+	line-height: $size;
+
+	display: block;
+	color: #fff;
+	text-align: center;
+	font-size: 3rem;
+	border-radius: 10px;
+	box-shadow: 0 5px 10px rgba(#000, 0.15);
+	transition: all ease-in-out .2s;
+
+	&:hover {
+		box-shadow: 0 14px 20px -4px rgba(#000, 0.25);
+	}
+}
+
+/* ボタン背景色 */
+.twitter {
+	background-color: #3ab4ff;
+}
+.facebook {
+	background-color: #3b8df7;
+}
+.github {
+	background-color: #555;
+}
+.instagram {
+	background-color: #f09433;
+	background-image: linear-gradient(
+		45deg,
+		#f09433 0%,
+		#e6683c 25%,
+		#dc2743 50%,
+		#cc2366 75%,
+		#bc1888 100%
+	);
+}
+
+/* ボタンのホバーアニメーション */
+
+/* 大きくなるボタン */
+.btn-grow:hover {
+	transform: scale(1.05);
+}
+
+/* 上に上がるボタン */
+.btn-up:hover {
+	transform: translateY(-4px);
+}
+
+/* 大きくなり、上に上がるボタン */
+.btn-grow-up:hover {
+	transform: scale(1.05) translateY(-2px);
+}
+
+/* バウンスするボタン */
+.btn-bounce {
+	transition: all cubic-bezier(.2, 1.8, .7, -2) .3s;
+	&:hover {
+		transform: scale(1.2);
+	}
+}
